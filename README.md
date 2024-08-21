@@ -1,2 +1,2 @@
-# top-is
-Repository for Software Engeneering Topics
+# Software Engineering Topics
+Repository for Software Engeneering Topics workshops
