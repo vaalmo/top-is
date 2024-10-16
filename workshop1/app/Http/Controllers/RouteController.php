@@ -52,6 +52,7 @@ class RouteController extends Controller
         return back();
     }
 
+    // validaciones no deben ir en el controller
     
     public function delete($id) 
     { 

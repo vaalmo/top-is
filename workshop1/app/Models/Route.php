@@ -14,17 +14,17 @@ class Route extends Model
         return $this->attributes['id']; 
     } 
  
-    public function setId($id) 
+    public function setId($id)
     { 
         $this->attributes['id'] = $id; 
     } 
  
-    public function getName() 
+    public function getName(): string
     { 
         return $this->attributes['name']; 
     } 
  
-    public function setName($name) 
+    public function setName(string $name) : void
     { 
         $this->attributes['name'] = $name; 
     } 

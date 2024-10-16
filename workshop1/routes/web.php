@@ -9,3 +9,8 @@ Route::get('/routes/create', 'App\Http\Controllers\RouteController@create')->nam
 Route::post('/routes/save', 'App\Http\Controllers\RouteController@save')->name("route.save");
 Route::get('/routes/{id}', 'App\Http\Controllers\RouteController@show')->name("route.show");
 Route::delete('/routes/{id}/delete','App\Http\Controllers\RouteController@delete')->name("route.delete"); 
+Route::get('/fishes', 'App\Http\Controllers\FishController@index')->name("fish.index");
+Route::get('/fishes/create', 'App\Http\Controllers\FishController@create')->name("fish.create");
+Route::post('/fishes/save', 'App\Http\Controllers\FishController@save')->name("fish.save");
+Route::get('/fishes/stats', 'App\Http\Controllers\FishController@stats')->name("fish.stats");
+Route::get('/fishes/{id}', 'App\Http\Controllers\FishController@show')->name("fish.show");
